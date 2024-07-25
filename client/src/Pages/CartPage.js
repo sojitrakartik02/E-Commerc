@@ -98,7 +98,7 @@ const CartPage = () => {
                   <div className="col-md-4">
                     <p style={{ marginBottom: ".75em" }}>Name:{p.name}</p>
                     <p style={{ marginBottom: ".75em" }}>
-                      Description:{p.description.substring(0, 30)}
+                      Description:{p?.description?.substring(0, 30)}
                     </p>
                     <p style={{ marginBottom: ".75em" }}>Price : {p.price}</p>
                     <p style={{ marginBottom: ".75em" }}>
